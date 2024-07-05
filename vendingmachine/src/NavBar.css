@@ -1,0 +1,33 @@
+/* NavBar.css */
+
+.NavBar {
+    width: 100%;
+    background-color: #7bced4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .NavBar a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 10px;
+  }
+  
+  .NavBar a:hover {
+    background-color: #519c9d;
+    border-radius: 5px;
+  }
+
+  body {
+    padding-top: 60px;
+    margin: 0;
+  }
+  
